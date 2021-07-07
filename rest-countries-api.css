@@ -1,0 +1,21 @@
+.body{
+    margin: 200px;
+}
+.country{
+    color:mediumorchid;
+    width: 300px;
+    text-align: center;
+    padding: 20px auto;
+    border: 1px solid gray;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
+}
+.country:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
